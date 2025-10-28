@@ -183,7 +183,7 @@
           <footer>
             <div class="footer-container" id="footer">
                 <div class="footer-logo">
-                    <p>© 2025 Nexus Advocacia | Desenvolvido por <a href="https://github.com/seuuser" target="_blank">Seu Nome</a></p>
+                    <p>© 2025 Nexus Advocacia | Desenvolvido por <a href="https://github.com/seuuser" target="_blank">Company WebSites</a></p>
                 </div>
                 <div class="footer-icons">
                     <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
@@ -198,11 +198,23 @@
                         <i class="bi bi-arrow-up-circle"></i></a>
                 </div>
             </div>
-        </footer>
-        
-          
+        </footer>   
     </main>
-    
+
+     <a id="btn-whatsapp" href="#" target="_blank" class="whatsapp-float" aria-label="whatsapp" rel="noopener noreferrer">
+        <i class="bi bi-whatsapp"></i>
+    </a>
+     <script>
+        // Define número e mensagem
+        const phone = '5532998237962';
+        const message = 'Olá, gostaria de um atendimento jurídico.';
+        const encoded = encodeURIComponent(message);
+        const url = `https://wa.me/${phone}?text=${encoded}`;
+
+        // Aplica no botão
+        const btn = document.getElementById('btn-whatsapp');
+        btn.href = url;
+    </script>
     <script src="script.js"  defer></script>
 </body>
 </html>  
