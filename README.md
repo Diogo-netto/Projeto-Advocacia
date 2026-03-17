@@ -25,11 +25,4 @@ Como um projeto de aprendizado e fundação, utilizei as tecnologias nativas da 
 - **CSS3:** Para estilização, posicionamento de elementos e responsividade.
 - **Git & GitHub:** Para versionamento de código e hospedagem via GitHub Pages.
 
-## 🚀 Como Executar Localmente
-
-Para rodar este projeto na sua máquina e conferir o código:
-
-1. **Clone o repositório:**
-   ```bash
-   git clone https://github.com/diogo-netto/Projeto-Advocacia.git
 
